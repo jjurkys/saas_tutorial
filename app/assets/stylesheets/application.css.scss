@@ -17,7 +17,7 @@
 @import 'bootstrap';
 @import "font-awesome-sprockets";
 @import "font-awesome";
-h1,h2,h3{
+h1,h3{
     font-family: 'Raleway', sans-serif;
     color: white;
 }
@@ -43,4 +43,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
 }
 .navbar-default .navbar-nav > li > a {
     color: white;
+}
+.navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100
+}
+.swx{
+      font-family: 'Raleway', sans-serif;
+      font-weight: 100
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
 }
